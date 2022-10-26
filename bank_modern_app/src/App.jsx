@@ -1,17 +1,6 @@
 import React from "react";
-import styles from "./style";
-import {
-  Navbar,
-  Hero,
-  Stats,
-  Business,
-  Billing,
-  CardDeal,
-  Testimonials,
-  Clients,
-  CTA,
-  Footer,
-} from "./components";
+import styles from './style';
+import { Navbar,Hero,Stats,Business,Billing,CardDeal,Testimonials,Clients,CTA, Footer} from './components';
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -37,8 +26,6 @@ const App = () => (
         <Clients />
         <CTA />
         <Footer />
-
-   
       </div>
     </div>
   </div>
